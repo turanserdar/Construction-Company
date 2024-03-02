@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors:{
         constructioncompany:{
-          background: "#1e293b",
+          background: "#fafafa",
           light_blue:"#232F3A",
           yellow:"#FEBD69",
           DEFAULT:"#131921"

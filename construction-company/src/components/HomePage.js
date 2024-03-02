@@ -1,5 +1,6 @@
 import React from 'react'
 import { Layout } from './Layout'
+import { NavBar } from './NavBar'
 
 export const HomePage = () => {
   return (
@@ -7,7 +8,7 @@ export const HomePage = () => {
         <div className='text-white'>
 
 
-HomePage
+<NavBar/>
 
 
  
