@@ -1,2 +1,2 @@
 # Construction-Company
-Redux, Tailwind CSS, Firebase
+React,Redux, Tailwind CSS, Firebase
