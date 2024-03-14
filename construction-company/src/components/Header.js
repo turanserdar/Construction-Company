@@ -24,18 +24,29 @@ export const Header = () => {
   }, []);
 
   return (
-    <div className="header">
-      {
-       data && data.length > 0 ? (
-        data.map((item, i) => (
-          <p key={i}>
-            {item.Header1 && <h1 style={{  fontWeight: 'bold' }}>{item.Header1}</h1>}
-          </p>
+    <div style={{
+      backgroundImage: "url('./images/people-renovating-house-concept.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundAttachment: "fixed",
+      height: "80vh",
+      width: "100%",
+    }}>
+      <div className="text-center">
+    {
+     data && data.length > 0 ? (
+      data.map((item, i) => (
+         <div key={i} className="mb-4">
+          {item.Header1 && <h1 style={{  fontWeight: 'bold'}}>{item.Header1}</h1>}
+          {item.Header2 && <h1 style={{  fontWeight: 'bold'}}>{item.Header2}</h1>}
+        </div>
+         
         ))
       ) : (
         <p>No data available</p>
       )
       }
+      </div>
     </div>
   );
 }

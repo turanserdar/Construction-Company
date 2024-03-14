@@ -7,11 +7,11 @@ import HomePageCard from "./HomePageCard";
 export const HomePage = () => {
   return (
     <Layout>
-      <div className='grid grid-cols-3 xl:grid-cols-4'>
+      
 
         <Header/>
-        <HomePageCard/>
-      </div>
+        {/* <HomePageCard/> */}
+  
     </Layout>
   );
 };
