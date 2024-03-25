@@ -1,0 +1,14 @@
+.swiper {
+  width: 100%; /* Set full width for the carousel container */
+}
+
+.swiper-slide {
+  width: calc(25% - 3px); /* Calculate width for each slide considering spacing */
+  display: flex; /* Allow horizontal alignment of content within slides */
+  justify-content: center; /* Center images horizontally within slides */
+  align-items: center; /* Center images vertically within slides (optional) */
+}
+
+.slide-content {
+  text-align: center; /* Optional: Center text content within slides */
+}

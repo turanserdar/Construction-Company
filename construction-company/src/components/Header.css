@@ -1,0 +1,23 @@
+.header-container {
+    position: relative;
+  }
+
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(240, 119, 220);
+  }
+
+.header1-text{
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:rgb(116, 238, 197);
+  }
+
+
+  
