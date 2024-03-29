@@ -1,0 +1,13 @@
+
+.w-full.max-w-screen-xl.mx-auto.p-4.md\:py-8 {
+    height: 200px; /* Örneğin */
+  }
+
+  .hr-style{
+    margin-bottom: 30px;
+  }
+
+  .ml-5{
+    color: rgb(197, 146, 131);
+    background-color:ghostwhite;
+  }
