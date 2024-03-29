@@ -1,0 +1,31 @@
+.gallery-container {
+    display: flex; /* Container'ı bir flex container olarak tanımlar */
+    justify-content: space-between; /* Öğeleri container içinde boşluğa yayarak hizalar */
+  }
+  
+  .image-with-caption {
+    position: relative; /* Resimlerin pozisyonunu belirlemek için */
+    text-align: center; /* İçerikleri yatayda merkezler */
+    flex-direction: column; /* İçerikleri dikeyde sıralar */
+  }
+  
+  
+  
+
+  .image-with-caption p {
+    position: absolute; /* Mutlak pozisyon, parent elementine göre konumlanır */
+    bottom: 0; /* En altta konumlandır */
+    left: 0; /* Solda konumlandır */
+    width: 100%; /* Genişlik 100% olacak şekilde ayarlanır */
+    background-color: rgba(255, 255, 255, 0.5); /* Arka plan rengi ve opaklık */
+    margin: 0; /* Yazı ile arasındaki boşluğu sıfırlar */
+    padding: 0.5rem; /* Yazının içerisindeki boşluk miktarı */
+  }
+  
+  .image-with-caption img {
+    flex: 1; /* Flex özelliği ile öğelerin esnekliğini belirler */
+    height: 100%; /* Yükseklik %100 olarak ayarlanır */
+    width: auto; /* Genişlik otomatik olarak ayarlanır */
+    max-height: 100%; /* Maksimum yükseklik belirlenir */
+  }
+

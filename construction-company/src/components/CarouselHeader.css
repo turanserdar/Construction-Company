@@ -7,8 +7,29 @@
   display: flex; /* Allow horizontal alignment of content within slides */
   justify-content: center; /* Center images horizontally within slides */
   align-items: center; /* Center images vertically within slides (optional) */
+  color:white;
 }
 
 .slide-content {
   text-align: center; /* Optional: Center text content within slides */
+  width: 100%; /* Resmin genişliği */
+  height:700px; /* Resmin yüksekliği */  
+}
+
+
+/* Butonun genel stili */
+.free-quote-button {
+  padding: 10px 20px;
+  background-color: #e76c25;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+/* Butona hover olduğunda arka plan renginin değişmesi */
+.free-quote-button:hover {
+  background-color:#007bff ;
 }
