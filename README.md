@@ -1,5 +1,6 @@
 # Construction-Company
 React, Firbase, Tailwind CSS, Material UI
+My first freelance website in Toronto is the website of a Construction Company in Toronto.
 ![image](https://github.com/turanserdar/Construction-Company/assets/85623664/3d3973c7-a999-42a9-9cf8-5750ece759f1)
 ![image](https://github.com/turanserdar/Construction-Company/assets/85623664/0bbbe382-3233-4747-84ce-e896953259c5)
 
