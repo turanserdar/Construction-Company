@@ -1,0 +1,50 @@
+.projects-container {
+    padding: 20px;
+  }
+  
+  .projects-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    text-align: center;
+    width: 30%; /* Projelerin genişliği */
+    transition: transform 0.3s ease; /* Hover efekti için geçiş tanımı */
+  }
+  
+  .project img {
+    width: 100%; /* Görüntünün genişliği %100 olsun */
+    height: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    margin: 0;
+  }
+  
+  /* Hover efekti */
+  .project:hover {
+    transform: scale(1.1); /* Büyütme efekti */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+  }
+  
+  /* Metnin görünümü */
+  .project p {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .projects-container h1{
+
+    color: darkslategrey;
+    font-size: 24px;
+    font-weight: bold;
+    
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Başlığı tamamen büyük harfe dönüştür */
+    
+  }

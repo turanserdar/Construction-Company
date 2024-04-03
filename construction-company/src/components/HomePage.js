@@ -3,6 +3,7 @@ import { Layout } from "./Layout";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
+
 export const HomePage = () => {
   return (
     <Layout>
@@ -10,6 +11,7 @@ export const HomePage = () => {
       
         <Header/>
         <Footer/>
+        
        
   
     </Layout>

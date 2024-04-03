@@ -8,6 +8,7 @@ import "./Header.css";
 import "swiper/css";
 import "./CarouselHeader.css";
 import "swiper/css/navigation";
+import { Link } from "react-router-dom";
 
 export const CarouselHeader = () => {
   const [data, setData] = useState([]);
@@ -69,9 +70,8 @@ export const CarouselHeader = () => {
                 <br/>
 
                 <div className="free-quote-button-container">
-                  <button className="free-quote-button">
-                    GET A FREE QUOTE
-                  </button>
+                
+                  <Link to="/ContactUs" className="free-quote-button">GET A FREE QUOTE</Link>
                 </div>
               </div>
             </div>

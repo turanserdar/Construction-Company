@@ -1,0 +1,27 @@
+
+.about-us {
+    max-width: 800px; /* Maksimum genişlik */
+    margin: 0 auto; /* Ortala */
+    padding: 20px; /* Kenar boşluğu */
+    text-align: center; /* Metni ortala */
+  }
+  
+  .about-us img {
+   
+    height: auto; /* Yüksekliği otomatik olarak ayarla */
+    margin-bottom: 20px; /* Resim ile metin arasına boşluk bırak */
+  }
+  
+  .about-us h1 {
+    font-size: 36px; /* Başlık font boyutu */
+    font-weight: bold; /* Kalınlık */
+    color: chocolate; /* Başlık rengi */
+    margin-bottom: 20px; /* Başlık ile paragraf arasına boşluk bırak */
+
+  }
+  
+  .about-us p {
+    font-size: 18px; /* Paragraf font boyutu */
+    line-height: 1.6; /* Satır yüksekliği */
+    color: #666; /* Paragraf rengi */
+  }

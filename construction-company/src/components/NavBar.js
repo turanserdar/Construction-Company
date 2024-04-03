@@ -1,13 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
   return (
     <div className='flex justify-between items-center py-3 px-6 bg-white text-black'>
-    <div className="text-xl font-bold">Four Brothers Renovation</div>
+      <Link to="/" className="text-xl font-bold">Four Brothers Renovation</Link>
+    {/* <div className="text-xl font-bold">Four Brothers Renovation</div> */}
 <div className="flex space-x-4">
-<div className='mr-4'>Projects</div>
-    <div className='mr-4'>About Us</div>
-    <div className='ml-auto mr-4'>Contact Us</div>
+
+    <Link to="/Projects" className="hover:underline me-4 md:me-6">Projects</Link>
+    <Link to="/AboutUs" className="hover:underline me-4 md:me-6">About Us</Link>
+    <Link to="/ContactUs" className="hover:underline me-4 md:me-6">Contact Us</Link>
+    
 
 </div>
     
